@@ -13,6 +13,7 @@
 		4E199D281C6187FA00A94536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E199D271C6187FA00A94536 /* Assets.xcassets */; };
 		4E199D2B1C6187FA00A94536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E199D291C6187FA00A94536 /* LaunchScreen.storyboard */; };
 		4E199D331C618EC800A94536 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E199D321C618EC800A94536 /* Character.swift */; };
+		4E81CAAB1C626D3000458CA6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E81CAAA1C626D3000458CA6 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E199D2A1C6187FA00A94536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E199D2C1C6187FA00A94536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E199D321C618EC800A94536 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4E81CAAA1C626D3000458CA6 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4E199D291C6187FA00A94536 /* LaunchScreen.storyboard */,
 				4E199D2C1C6187FA00A94536 /* Info.plist */,
 				4E199D321C618EC800A94536 /* Character.swift */,
+				4E81CAAA1C626D3000458CA6 /* Player.swift */,
 			);
 			path = RPG_Game;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E81CAAB1C626D3000458CA6 /* Player.swift in Sources */,
 				4E199D331C618EC800A94536 /* Character.swift in Sources */,
 				4E199D231C6187FA00A94536 /* ViewController.swift in Sources */,
 				4E199D211C6187FA00A94536 /* AppDelegate.swift in Sources */,
@@ -290,6 +294,7 @@
 				4E199D311C6187FA00A94536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
