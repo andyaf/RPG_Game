@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Kimars: Enemy {
+class Kimara: Enemy {
     
     let IMMUNE_MAX = 15
     
